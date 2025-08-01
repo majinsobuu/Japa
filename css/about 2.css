@@ -1,0 +1,194 @@
+a.learn:hover, a.learn:focus {
+    text-decoration: none;
+}
+/* --- About Page Main Styles --- */
+.box2 img{
+    height: 350px;
+    width: 100%;
+}
+
+.box img{
+    width: 40%;
+    height: auto;
+    object-fit: contain;
+
+}
+
+.allow{
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.flash{
+    color: #757575;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.score{
+    background-color: #003498;
+    padding: 15px;
+    font-family:sans-serif ;
+    font-weight: bold;
+    width: 40%;
+    color: white;
+}
+
+.group{
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    height: 300px;
+    padding: 10px;
+}
+h3{
+    font-family: sans-serif;
+    color: #003498;
+}
+.fly{
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    color: black;
+}
+.velocity{
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    height: 110vh;
+    padding: 10px;
+    margin-top: 80px;
+}
+.box1 img{
+    width: 50%;
+    /* height: auto; */
+}
+.box1{
+    height: 110vh;
+}
+
+.bluish{
+    background-color: #003498;
+    padding: 10px;
+    height: 50px;
+    color: white;
+    border: none;
+    width:200px;
+    text-align: center;
+}
+
+.move{
+    text-align: center;
+    font-family: sans-serif;
+    color: #003498;
+    font-size: 30px;
+
+}
+
+.ragnar{
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #000;
+
+}
+
+.goal{
+    box-sizing: border-box;
+    float: left;
+    width: 25%;
+    height: auto;
+    padding: 10px;
+    color:  #757575;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.pace{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+           
+          
+.box2{
+    background-color: whitesmoke;
+    border-bottom: 2px solid #003498;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+    transition: 
+        transform 0.2s cubic-bezier(0.4, 0.2, 0.2, 1),
+        box-shadow 0.2s cubic-bezier(0.4, 0.2, 0.2, 1),
+        border-radius 0.3s cubic-bezier(0.4, 0.2, 0.2, 1);
+    will-change: transform, box-shadow, border-radius;
+}
+
+.box2:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+}
+
+.box2 img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+           
+.never{
+font-size: 20px;
+text-align: center;
+font-family: sans-serif;
+color: #000;
+}
+
+.you{
+text-align: center;
+font-family: sans-serif;
+color: #000;
+}
+          
+@media (max-width: 900px) {
+    .team-members {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+    .goal {
+        margin: 20px auto;
+    }
+}
+/* --- Responsive Design --- */
+@media (max-width: 900px) {
+    .group, .velocity {
+        flex-direction: column;
+        align-items: center;
+    }
+    .goal {
+        margin: 20px auto;
+        display: block;
+    }
+    .box2 {
+        width: 90vw;
+        max-width: 350px;
+        margin: 0 auto 20px auto;
+    }
+}
+@media (max-width: 600px) {
+    .group .box, .velocity .box1 {
+        padding: 18px 8px;
+    }
+    .ragnar {
+        font-size: 1.2rem;
+    }
+    .move {
+        font-size: 1rem;
+    }
+}
+
+h5{
+    text-align: center;
+    color: #000;
+}

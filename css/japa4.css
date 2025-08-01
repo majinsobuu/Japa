@@ -1,0 +1,190 @@
+.tend{
+  float: left;
+  width: 30%;
+  height: auto;
+  padding: 8px;
+  /* border: 2px solid black; */
+  box-sizing: border-box;
+  background-color: rgb(254, 250, 250);
+  margin: 20px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  color: black;
+
+}
+            
+h1{
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+  font-family: sans-serif;
+  margin-bottom: 0;
+}
+
+
+.lion{
+  background-color: #003498;
+  padding: 10px ;
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+}
+.sm{
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  display: block;
+  align-items: center;
+  color: #000000;
+
+ }
+
+.thing{
+  width: 40%;
+  padding: 10px;
+  background-color: #003498;
+  color: #ffff;
+  font-family: sans-serif;
+  border: none;
+  align-self: center;
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px ;
+}
+ .goat{
+  color: #003498;
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: bolder;
+}
+
+h3{
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.box5{
+  background-color: whitesmoke;
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.move{
+text-align: center;
+font-family: sans-serif;
+color: #003498;
+font-size: 30px;           
+}
+
+.img{
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.image{
+  width: 100px;
+  border-radius: 50px;
+  height: auto;
+  justify-content: left;
+}
+
+.you{
+  text-align: center;
+  color: #000000;
+  font-size: 20px;
+}
+
+h4{
+font-family: sans-serif;
+font-size: 40px;
+text-align: center;
+}
+/* Responsive Pricing Plans */
+.tend {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+    /* margin: 20px 0; */
+    flex-wrap: wrap;
+}
+.box1 {
+    flex: 1 1 300px;
+    max-width: 340px;
+    /* background: #fff; */
+    border-radius: 12px;
+    /* box-shadow: 0 2px 12px rgba(0,0,0,0.08); */
+    padding: 35px 30px 30px 30px;
+    text-align: center;
+    margin: 0 10px 30px 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Owl Carousel Testimonials */
+.owl-carousel .box5 {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.owl-carousel .img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+    .tend {
+        flex-direction: column;
+        align-items: center;
+    }
+    .box1 {
+        max-width: 95%;
+        width: 95%;
+        margin: 15px 0;
+    }
+    .footer, .footer3 {
+        padding: 18px 8px 8px 8px;
+    }
+    .owl-carousel .box5 {
+        width: 98%;
+        padding: 10px;
+    }
+}
+@media (max-width: 600px) {
+    .man h3, .move {
+        font-size: 1.1rem;
+    }
+    .box1 {
+        padding: 20px 8px 18px 8px;
+    }
+    .footer, .footer3 {
+        padding: 12px 4px 4px 4px;
+    }
+    .footer3 input.in, .footer3 button.whithy {
+        width: 100%;
+        max-width: none;
+        margin-bottom: 8px;
+    }
+    .underfoot {
+        flex-direction: column;
+        font-size: 0.9rem;
+    }
+}

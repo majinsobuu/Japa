@@ -1,0 +1,174 @@
+ .body{
+       background-color: #333333;
+       width: 100%;
+       height: 300px;
+        
+      }
+      .container{
+        display: block;
+        background-color: #003498;
+        justify-content: space-between;
+        padding: 10px;
+        
+      }
+      .navbar{
+       
+        padding: 10px;
+        margin: 10px;
+        font-family: sans-serif;
+        
+  
+      }
+
+      .main{
+        background-color: white;
+        padding: 10px;
+       box-sizing: border-box;
+        width: 50%;
+        float: left;
+      }
+
+      a{
+        text-decoration: none;
+        color: #ffff;
+        padding: 10px;
+      }
+        .navbar h1{
+            font-weight: bold;
+        }
+       
+        
+        .navbar nav a{
+            margin: 0 10px;
+            text-decoration: none;
+            color: black;
+            }
+            .tend{
+                float: left;
+                width: 33.3%;
+                height: 500px;
+                padding: 8px;
+                /* border: 2px solid black; */
+                 box-sizing: border-box;
+                   background-color: whitesmoke;
+            
+            }
+            
+            h1{
+                font-size: 30px;
+                font-weight: bolder;
+                text-align: center;
+                font-family: sans-serif;
+            }
+            .lion{
+                background-color: #003498;
+                width: 100%;
+                height: 30px;
+                font-family: sans-serif;
+                font-size: 20px;
+                font-weight: bold;
+                text-align: center;
+                color: white;
+                padding: 5px;
+                
+            }
+            small{
+              font-size: 15px;
+              font-family: sans-serif;
+              font-weight: lighter;
+              text-align: center;
+              display: block;
+             }
+             .thing{
+              width: 40%;
+              height: 40px;
+              background-color: #003498;
+              color: #ffff;
+              font-family: sans-serif;
+              border: none;
+              margin: 0px 110px;
+             
+             }
+             .goat{
+              color: #003498;
+              font-family: sans-serif;
+              text-align: center;
+              font-weight: bolder;
+             }
+             h3{
+               font-family: sans-serif;
+              text-align: center;
+              font-weight: bolder;
+              font-size: 30px;
+             }
+              .box5{
+            background-color: whitesmoke;
+            width: 50%;
+            height: 250px;
+            margin: 0 auto;
+           
+           }
+            .move{
+            text-align: center;
+            font-family: sans-serif;
+            color: #003498;
+            font-size: 30px;
+           
+           }
+            .image{
+            width: 50px;
+            border-radius: 50%;
+            height: 50px;
+            justify-content: left;
+           }
+           .you{
+           text-align: center;
+           }
+           .footer{
+            background-color: #003498;
+              box-sizing: border-box;
+            float: left;
+            width: 33.3%;
+            height: 400px;
+            padding: 10px;
+            margin-top: 100px;
+           }
+           h4{
+            font-family: sans-serif;
+            font-size: 40px;
+            text-align: center;
+            
+            
+           }
+           .getin{
+            color: white;
+            font-size: 30px;
+            font-family: sans-serif;
+            text-align: center;
+            font-weight: bolder;
+           }
+           ul{
+            color: white;
+            font-family: sans-serif;
+            text-align: center;
+           }
+           .write{
+            text-align: center;
+            color: white;
+            font-family: sans-serif;
+           }
+           .mercy{
+            width: 70%;
+            height: 20px;
+            padding: 10px;
+           }
+           .whithy{
+            height: 45px;
+            color: white;
+            background-color: #003498;
+            border: none;
+           }
+           .box4{
+            width:100% ;
+           }
+

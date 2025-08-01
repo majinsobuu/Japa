@@ -1,0 +1,794 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+*{
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+}
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #757575;
+  text-align: left;
+  /* background-color: #fff; */
+  display: block;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+/* topbar */
+.tmain {
+    background-color: #1F1F2E;
+
+}
+
+a.tmain:hover, a.tmain:focus,
+button.tmain:hover,
+button.tmain:focus {
+  background-color: #0a0a10;
+}
+a.tmain {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+small {
+  color: #ffffff;
+  font-size: 80%;
+}
+
+.p1{
+    text-align: left;
+    /* border: 1px solid red; */
+    float: left;
+    padding-top: 10px;
+}
+
+.p2{
+    text-align: right;
+    /* border: 1px solid blue; */
+    padding: 10px;
+}
+
+a.t-icon{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.t-icon{
+    margin-left: 1px;
+    margin-right: 10px;
+}
+
+
+/* navbar */
+
+.nav-main{
+    color: #0a0a10;
+    /* border: 1px solid red; */
+    width: 100%;
+    /* background-color: yellow; */
+    height: 13.8vh;
+}
+
+
+img.japa{
+    /* border: 2px solid blue; */
+    width: 20%;
+}
+
+/* If you have the Pavelt font file locally, use @font-face to import it: */
+@font-face {
+    font-family: 'Pavelt';
+    src: url('/fonts/Pavelt.woff2') format('woff2'),
+         url('/fonts/Pavelt.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.japs{
+    font-size: 4rem;
+    font-weight: bold;
+    width: 50%;
+    font-family: 'Pavelt', Verdana, Geneva, Tahoma, sans-serif;
+    /* border:2px solid red; */
+}
+
+a.japs{ 
+    color: #0a0a10;
+    text-decoration: none;
+    
+}
+.nav1{
+    float: left;
+    /* border: 2px solid red; */
+    width: 50%;
+}
+.nav2{
+    /* border: 2px solid blue; */
+    float: right;
+    margin: 50px;
+} 
+
+.navlinks{
+    padding: 30px 15px;
+    padding-top: 54px;
+    margin-bottom: 3000px;
+
+}
+
+a.navlinks {
+    color: #0a0a10;
+    text-decoration: none;
+    background: transparent;
+    transition: background 0.2s, color 0.2s;
+}
+
+a.navlinks:hover, a.navlinks:focus {
+    background-color: #003498 !important;
+    color: #fff !important;
+    border-radius: 6px;
+}
+a.navlinks.active, a.navlinks.selected {
+    background-color: #0a0a10 !important;
+    color: #fff !important;
+    border-radius: 6px;
+}
+
+@media (max-width: 768px) {
+    a.navlinks, a.navlinks.active, a.navlinks.selected {
+        display: inline-block;
+        width: auto;
+        text-align: center;
+        border-radius: 0;
+        margin: 2px 6px;
+    }
+    .nav2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+}
+
+a#navlink1,
+a#navlink2,
+a#navlink3,
+a#navlink4,
+a#navlink5 {
+    color: #0a0a10;
+}
+
+/* Header */
+
+.header-main{
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/img/bg-img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+
+.txt1{
+   /* border: 1px solid green; */
+   color: #fff;
+}
+
+.txt2{
+    /* border: 1px solid violet; */
+    color: #fff;
+}
+.hp{
+    color: #fff;
+}
+
+.input-area{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    /* border: 1px solid yellow;*/
+}
+
+/* .input-area1{
+
+} */
+
+.input{
+    padding: 28px;
+    border: none;
+
+}
+
+/* .input2{
+} */
+
+.trk-btn{
+    padding: 20px 20px 21px 20px;
+    color: #fff;
+    background-color: #003498;
+    border-color: #003498;
+    border: none;
+    width: 20%;
+    transition: background-color 0.3s;
+
+}
+
+.trk-btn:hover{
+    background-color: #00045a;
+}
+
+/* Homepage area */
+
+.abtmain{
+    float: left;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 10px;
+}
+.abtimg{
+    border: 2px solid green;
+    width: 80%;
+    position: relative;
+    border-style: none;
+    vertical-align: middle;
+    position: relative;
+    float: left;
+}
+
+.abt-xp{
+    /* border: 2px solid orange; */
+    width: 80%;
+    background-color: #00045a;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+.abt2{
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: auto;
+    margin: 0% 30% 40% 0;
+    padding: 5%;
+    position: relative;
+    /* float: right; */
+}
+
+.about{
+    justify-self: center;
+    /* border: 2px solid red; */
+    width: 100%;
+    height: auto;
+    align-self: center;
+
+
+}
+
+
+/* .content{
+    /* justify-self: center;
+
+}*/
+
+/* footer area */
+/* .foot{
+    background-color: #00045a;
+} */
+.underfoot{
+    background-color: #0a0a10;
+    
+}
+
+.list{
+    list-style: none;
+    padding: 0 10px 0 10px;
+}
+
+.unfoot1{
+    /* border: 2px solid red; */
+    background-color: #00045a;
+    width: 50%;
+    position: relative;
+    float:  left;
+    padding: 10px;
+
+}
+
+.unfoot2{
+    text-align: right;
+    width: 50%;
+    background-color: #00045a;
+    /* border: 2px solid orange; */
+    position: relative;
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+/* .footbtn{
+    border: 1px solid #ffff;
+    width: 100px;
+    height: 100px;
+    padding: 10px 20px;
+    border-radius: 50%;
+}
+
+.foot{
+    justify-content: space-between;
+}
+
+.foot1{
+    border: 1px solid red;
+    width: 33%;
+    height: fit-content;
+    justify-self: left;
+}
+
+.foot2{
+    border: 1px solid yellow;
+    width: 33%;
+    justify-content: center;
+    height: fit-content;
+
+}
+
+.foot3{
+    width: 33%;
+    border: 1px solid orange;
+    height: fit-content;
+}  */
+
+/* Andrew's footer */
+.footer{
+    background-color: #00045a;
+    box-sizing: border-box;
+    float: left;
+    width: 33.3%;
+    height: 400px;
+    padding: 10px;
+    border-bottom: solid white ;
+    color: white;
+    padding: 0;
+    position: relative;
+    margin-top: 100px;
+     
+}
+.footer3{
+    width: 33.4%;
+}
+
+.mar{
+    margin-left: 10px;
+}
+.socials{
+    width: 50px;
+    height: 50px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 50px;
+    border: solid white;
+    text-align: center;
+    font-size: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+.socials1{
+    width: 50px;
+    height: 50px;
+    padding: 20px 23px 20px 23px;
+    border-radius: 50px;
+    border: solid white;
+    text-align: center;
+}
+.socials:hover{
+    background-color: #003498;
+    color: white;
+}
+.getin{
+    color: white;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bolder;
+}
+ul{
+    color: white;
+    font-family: sans-serif;
+    text-align: left;
+}
+
+.text{
+    text-align: left;
+    color: white;
+    font-family: sans-serif;
+}
+
+input{
+    width: 70%;
+    height: 20px;
+    padding: 10px;
+}
+
+.whithy{
+    height: 45px;
+    color: white;
+    background-color: #003498;
+    border: none;
+    transition: 0.3s;
+}
+.whithy:hover{
+    background-color: #00089a;
+    border-radius:  100px;
+}
+.in{
+    padding: 20px;
+}
+
+/* back to top btn */
+.btt{
+    display: inline;
+    background-color:#003498;
+    color: #fff;
+    border-color: #0047cb;
+    box-shadow: 0 0 0 0.2rem rgba(38, 74, 255, 0.5);
+    position: fixed;    
+    right: 30px;
+    bottom: 30px;
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    animation: action 1s infinite alternate;
+    color: 0.15s ease-in-out;
+    background-color: 0.15s ease-in-out ; 
+    border-color: 0.15s ease-in-out;
+    box-shadow: 0.15s ease-in-out;
+}
+
+@keyframes action {
+    0%{
+        transform: translateY(0);
+
+    }
+    100%{
+            transform: translateY(-15px);
+
+    }
+    
+}
+
+/* --- Services Section --- */
+.services-main {
+    background: #f8f9fa;
+    padding: 40px 0;
+    text-align: center;
+}
+.section-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #1a1a1a;
+}
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.service-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+    padding: 30px 20px;
+    width: 270px;
+    transition: transform 0.2s;
+}
+.service-card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+}
+.service-card i {
+    color: #00045a;
+    margin-bottom: 15px;
+}
+.service-card h4 {
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+    color: #222;
+}
+
+/* --- How It Works Section --- */
+.how-it-works {
+    background: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+.steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+.step {
+    background: #f8f9fa;
+    border-radius: 10px;
+    padding: 25px 18px;
+    width: 220px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+}
+.step-number {
+    display: inline-block;
+    background: #003498;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.step h5 {
+    margin: 10px 0 8px 0;
+    font-size: 1.1rem;
+    color: #222;
+}
+
+/* --- Testimonials Section --- */
+.testimonials {
+    background: #f8f9fa;
+    padding: 40px 0;
+    text-align: center;
+}
+.testimonial-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+.testimonial {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+    padding: 25px 20px;
+    width: 320px;
+    font-style: italic;
+    color: #444;
+    position: relative;
+}
+.testimonial span {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #00045a;
+    font-style: normal;
+}
+
+/* --- Call to Action Section --- */
+.cta-main {
+    background: #00045a;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0 30px 0;
+    margin-bottom: 50px;
+}
+.cta-main h2 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+.cta-main p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+.cta-btn {
+    background: #fff;
+    color: #00045a;
+    padding: 12px 32px;
+    border-radius: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: background 0.2s, color 0.2s;
+    border: none;
+    display: inline-block;
+}
+.cta-btn:hover {
+    background: #222;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* --- Responsive Design --- */
+@media (max-width: 900px) {
+    .services-list,
+    .steps,
+    .testimonial-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .service-card,
+    .step,
+    .testimonial {
+        width: 90%;
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .nav1, .nav2 {
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin: 0;
+    }
+    .nav2 {
+        margin-top: 10px;
+    }
+    .japs {
+        font-size: 3rem;
+    }
+    .abtmain {
+        width: 100%;
+        float: none;
+    }
+    .footer, .footer3 {
+        width: 100%;
+        float: none;
+        margin-top: 30px;
+        height: auto;
+    }
+    .unfoot1, .unfoot2 {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-main {
+        height: auto;
+    }
+    .nav1, .nav2 {
+        display: block;
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin: 0;
+    }
+    .nav2 {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+    .japs {
+        font-size: 2.2rem;
+    }
+    img.japa {
+        width: 40%;
+    }
+    .header-main {
+        padding: 40px 10px;
+    }
+    .abtmain, .about, .abt2 {
+        width: 100%;
+        float: none;
+        margin: 0;
+        padding: 10px 0;
+    }
+    .abtimg {
+        width: 100%;
+        float: none;
+        display: block;
+        margin: 0 auto 10px auto;
+    }
+    .abt-xp {
+        width: 100%;
+    }
+    .footer, .footer3 {
+        width: 100%;
+        float: none;
+        margin-top: 30px;
+        height: auto;
+    }
+    .unfoot1, .unfoot2 {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .services-list, .steps, .testimonial-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .service-card, .step, .testimonial {
+        width: 95%;
+        max-width: 350px;
+    }
+    .cta-main {
+        padding: 30px 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 0.95rem;
+    }
+    .japs {
+        font-size: 1.3rem;
+    }
+    img.japa {
+        width: 60%;
+    }
+    .header-main {
+        padding: 20px 5px;
+    }
+    .input {
+        padding: 12px;
+        width: 100%;
+    }
+    .trk-btn {
+        padding: 12px 10px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .abtimg {
+        width: 100%;
+    }
+    .abt-xp {
+        font-size: 1rem;
+    }
+    .footer, .footer3 {
+        width: 100%;
+        float: none;
+        margin-top: 20px;
+        height: auto;
+        padding: 10px 0;
+    }
+    .unfoot1, .unfoot2 {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .btt {
+        right: 10px;
+        bottom: 10px;
+        font-size: 1rem;
+        padding: 0.3rem 0.7rem;
+    }
+}
+
+a :hover {
+    text-decoration: none;
+}
+
